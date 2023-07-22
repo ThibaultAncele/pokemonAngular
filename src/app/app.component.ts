@@ -15,8 +15,8 @@ export class AppComponent implements OnInit {
       console.table(this.pokemonList);
   }
 
-  selectPokemon(pokemonId: string){
-    const pokemon: Pokemon|undefined = this.pokemonList.find(pokemon => pokemon.id == +pokemonId);
+  selectPokemon(pokemonChoosed : Pokemon){
+    const pokemon: Pokemon|undefined = this.pokemonList.find(pokemon => pokemon.id == +pokemonChoosed.id);
     if(pokemon) {
       console.log(`Vous avez demandé le pokémon ${pokemon.name}`);
       this.pokemonSelected = pokemon;

@@ -34,7 +34,7 @@ export const POKEMONS: Pokemon[] = [
         hp: 16,
         cp: 2,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/149.png",
-        types: ["Insecte", "Poison"],
+        types: ["Dragon", "Vol"],
         created: new Date()
     },
     {
@@ -43,7 +43,7 @@ export const POKEMONS: Pokemon[] = [
         hp: 30,
         cp: 7,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/094.png",
-        types: ["Normal", "Vol"],
+        types: ["Spectre", "Poison"],
         created: new Date()
     },
     {
@@ -52,7 +52,7 @@ export const POKEMONS: Pokemon[] = [
         hp: 18,
         cp: 6,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/065.png",
-        types: ["Normal"],
+        types: ["Psy"],
         created: new Date()
     },
     {
@@ -61,7 +61,7 @@ export const POKEMONS: Pokemon[] = [
         hp: 14,
         cp: 5,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/382.png",
-        types: ["Normal", "Vol"],
+        types: ["Eau"],
         created: new Date()
     },
     {
@@ -70,7 +70,7 @@ export const POKEMONS: Pokemon[] = [
         hp: 16,
         cp: 4,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/383.png",
-        types: ["Poison"],
+        types: ["Sol"],
         created: new Date()
     },
     {
@@ -79,7 +79,7 @@ export const POKEMONS: Pokemon[] = [
         hp: 21,
         cp: 7,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/384.png",
-        types: ["Electrik"],
+        types: ["Dragon","Vol"],
         created: new Date()
     },
     {
@@ -88,7 +88,7 @@ export const POKEMONS: Pokemon[] = [
         hp: 19,
         cp: 3,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/151.png",
-        types: ["Normal"],
+        types: ["Psy"],
         created: new Date()
     },
     {
@@ -97,7 +97,7 @@ export const POKEMONS: Pokemon[] = [
         hp: 25,
         cp: 5,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/249.png",
-        types: ["Fée"],
+        types: ["Psy","Vol"],
         created: new Date()
     },
     {
@@ -106,7 +106,7 @@ export const POKEMONS: Pokemon[] = [
         hp: 17,
         cp: 8,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png",
-        types: ["Feu"],
+        types: ["Electrik"],
         created: new Date()
     }
 ];

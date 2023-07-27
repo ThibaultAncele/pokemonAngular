@@ -14,7 +14,7 @@ import { LoaderComponent } from './loader/loader.component';
 import { authGuard } from '../auth.guard';
 
 const pokemonroutes: Routes = [
-  { path: 'edit/pokemon/:id', component: EditPokemonComponent},
+  { path: 'edit/pokemon/:id', component: EditPokemonComponent, canActivate: [authGuard]},
   { path: 'pokemon/add', component: AddPokemonComponent, canActivate: [authGuard] },
   { path: 'pokemons', component: ListPokemonComponent },
   { path: 'pokemon/:id', component: DetailPokemonComponent, canActivate: [authGuard] }

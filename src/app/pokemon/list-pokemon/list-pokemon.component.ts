@@ -12,6 +12,8 @@ import { AuthService } from 'src/app/auth.service';
 export class ListPokemonComponent implements OnInit {
 
   pokemonList: Pokemon[];
+  auth: AuthService;
+  
   constructor(private router: Router,
     private pokemonService: PokemonService,
     private authService: AuthService){}
@@ -19,6 +21,7 @@ export class ListPokemonComponent implements OnInit {
   ngOnInit(){
     this.pokemonService.getPokemonList()
       .subscribe(pokemonList => this.pokemonList = pokemonList);
+    this.auth = this.authService;
   }
 
   goToPokemon(pokemon: Pokemon){

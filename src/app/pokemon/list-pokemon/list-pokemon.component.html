@@ -31,11 +31,21 @@
 +
 </a>
 
-<a
+<a  
+    *ngIf="auth.isLoggedIn"
     class="btn-floating btn-large waves-effect waves-light red z-depth-3"
     style="position: fixed; bottom: 25px; left: 25px;"
     (click)="logoutFromList()"
     routerLink="/login"
 >
 Off
+</a>
+
+<a  
+    *ngIf="!auth.isLoggedIn"
+    class="btn-floating btn-large waves-effect waves-light green"
+    style="position: fixed; bottom: 25px; left: 25px;"
+    routerLink="/login"
+>
+login
 </a>
